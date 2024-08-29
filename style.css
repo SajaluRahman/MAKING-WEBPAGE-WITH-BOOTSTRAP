@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: system-ui;
+}
+.main{
+    height: 100vh;
+    width:100vw;
+ 
+    background-image: url(./images/bmw-cafe-racer-7680x4320-14230.jpg);
+    background-size: 1300px; 
+    background-position: top;
+  
+}
+
+.continer img{
+    height: 98vh;
+    width: 80vw;
+}
+.navbar{
+    display: flex;
+
+    
+    
+}
+.dp{
+    
+    font-weight: bolder;
+    color: #a20e0e;
+    text-shadow: 2px 2px 5px rgb(255, 255, 255);
+    width: 130px;
+    display: flex;
+    justify-content: space-around;
+}
+.dp div img{
+    width: 60px;
+}
+
+.nav1{
+
+    display: flex;
+    justify-content: end;
+    justify-content: space-around;
+    width:800px;
+}
+.nav1 a{
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 12px !important;
+    transition: 0.3s ease-in-out;
+}
+.nav1 a:hover{
+    color: #515050 !important;
+}
+.nav1 nav{
+    background-color: transparent !important;
+
+}
+.nav1 button{
+    color: #fff;
+    font-weight: bolder;
+    width: 120px;
+    background-color: transparent;
+    height: 40px;
+    border-radius: 20px;
+}
+.container2{margin-top: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.container2 .para h1{
+    font-size: 48px;
+    font-weight: bolder;
+}
+.container3 .para1 h1{
+    font-size: 38px;
+    font-weight: bolder;
+    margin-left: 20px;
+}
